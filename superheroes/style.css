@@ -1,0 +1,290 @@
+* {
+  font-family: system-ui;
+}
+
+.formulario-registro {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 50px auto;
+  color: white;
+  background-color: #00669f;
+  text-align: center;
+}
+
+.formulario-registro input {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.formulario-registro .submit {
+  width: 25%;
+  margin: auto;
+}
+
+.header {
+  background-color: #1cd1b0;
+}
+
+footer {
+  background-color: #00669f;
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+
+.header > p {
+  margin: 0;
+  padding-left: 25px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: green;
+}
+
+.check {
+  background-color: green;
+}
+
+header {
+  background-color: #00669f;
+  color: white;
+  position: sticky;
+  top: 1px;
+  z-index: 1;
+}
+
+button {
+  /* Boton ver mas */
+  background-color: #00669f; /* Color de fondo */
+  color: white; /* Color de la letra */
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 4px; /* Redondearlo un poquito */
+  border: 2px solid #00669f; /* Color del borde*/
+}
+
+i {
+  /* Icono del corazon */
+  color: red;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+header > h1 {
+  margin: 0;
+  padding: 25px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card p {
+  text-align: justify;
+  padding: 10px;
+}
+
+.card {
+  background-color: #f3f3f3; /* Color de fondo*/
+  border-radius: 25px 25px 0px 0px; /* Borde redondeado solo arriba*/
+  width: 300px; /*Altura*/
+  text-align: center; /*Alineacion del texto*/
+  margin: 20px auto; /*Margin arriba y abajo de 20px y auto para los lados*/
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  /* Sombra se hace con box-shadow colores tamaños y transparencias*/
+}
+
+.bg {
+  /* Clase para las imagenes de fondo */
+  border-radius: 25px 25px 0px 0px; /* Borde redondeado solo arriba*/
+  background-size: 100%; /* Tamaño de imagen */
+  height: 180px; /*Ancho*/
+  width: 300px; /*Altura*/
+  position: relative; /*relativa por que va a encerrar la imagen pequeña*/
+}
+
+.principal {
+  /* Clase para las imagenes del heroe  */
+  background-size: contain; /* */
+  height: 200px; /*Ancho*/
+  width: 200px; /*Altura*/
+  top: 65px; /* Posicion top*/
+  background-repeat: no-repeat;
+  position: absolute; /* Movimiento */
+  left: 50px; /* Posicion left*/
+  border-radius: 100px; /*Redondea*/
+}
+
+.bg-batman {
+  background-image: url("bg-batman.jpg");
+}
+
+.batman {
+  background-image: url("batman.jpg");
+}
+
+.bg-wonder {
+  background-image: url("bg-wonderw.jpg");
+}
+
+.wonder {
+  background-image: url("ww.jpg");
+}
+
+.bg-super {
+  background-image: url("bg-superman.jpg");
+}
+
+.sman {
+  background-image: url("sman.jpg");
+}
+
+h2 {
+  padding-top: 80px;
+}
+
+section {
+  display: flex;
+}
+
+.add {
+  font-size: 25px; /* Aumentar tamaño de la letra*/
+  border-radius: 100px; /* Redondear el div*/
+  position: fixed; /* Quede pegado en la pantalla*/
+  bottom: 10px; /* posicion abajo 10*/
+  right: 10px; /* posicion derecha 10*/
+  text-align: center; /* centrar la letra*/
+  width: 40px; /* Altura */
+  height: 40px; /* Ancho */
+  background-color: #00669f; /* Color de fondo */
+  color: white; /* Color de letra */
+}
+
+.añadir {
+  background-color: #00669f;
+  color: white;
+  border-radius: 10px;
+  width: 50%;
+  margin: 25px auto;
+  text-align: center;
+  padding: 5px;
+}
+
+.part1 {
+  width: 49%;
+  margin: 0px;
+  text-align: left;
+  margin-left: 12%;
+}
+
+.subheader {
+  background-color: #001d2d;
+  text-align: right;
+  height: 30px;
+}
+
+.subheader a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.subheader div {
+  padding: 5px;
+}
+
+.login {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.login .inputs {
+  width: 60%;
+  height: 23px;
+}
+
+.add a {
+  color: white;
+  text-decoration: none;
+}
+.add :hover {
+  font-size: 25px; /* Aumentar tamaño de la letra*/
+  border-radius: 100px; /* Redondear el div*/
+  position: fixed; /* Quede pegado en la pantalla*/
+  bottom: 10px; /* posicion abajo 10*/
+  right: 10px; /* posicion derecha 10*/
+  text-align: center; /* centrar la letra*/
+  width: 40px; /* Altura */
+  height: 40px; /* Ancho */
+  background-color: black; /* Color de fondo */
+  color: white; /* Color de letra */
+  transform: scale(1.25);
+}
+
+.part1 div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.part2 div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container-form {
+  display: flex;
+}
+
+.part1 input {
+  border-radius: 7px;
+  border-color: white;
+  padding: 4px;
+  margin: 2px;
+  width: 80%;
+}
+.part1 textarea {
+  border-radius: 7px;
+  border-color: white;
+  padding: 4px;
+  margin: 2px;
+  width: 80%;
+}
+
+.part2 select {
+  border-radius: 7px;
+  border-color: white;
+  padding: 4px;
+  margin: 2px;
+  width: 80%;
+}
+
+.addbutton {
+  background-color: #1cd1b0;
+  border-color: #1cd1b0;
+  color: black;
+  border-radius: 2px;
+  padding: 10px 25px;
+  font-weight: bold;
+  width: 180px;
+  height: 47px;
+}
+
+.addbutton:hover {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+.part2 {
+  width: 49%;
+  margin: 0px;
+  text-align: left;
+}
+
+.añadir > h2 {
+  margin: 0px;
+  padding: 0px;
+}
