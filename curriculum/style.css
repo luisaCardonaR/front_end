@@ -1,0 +1,31 @@
+header {
+  background-color: #dddddd;
+  text-align: center;
+}
+h1 {
+  background-color: #bfbfbf;
+  line-height: 48px;
+  color: #284473;
+  text-align: center;
+}
+h2 {
+  background-color: #bfbfbf;
+  color: #5a2821;
+}
+
+li {
+  font-weight: bold;
+}
+li > span {
+  font-weight: 300;
+}
+main {
+  padding: 8px 25%;
+}
+
+footer {
+  text-align: center;
+  background-color: #284473;
+  color: white;
+  font-size: 30px;
+}
